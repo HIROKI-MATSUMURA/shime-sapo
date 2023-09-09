@@ -157,3 +157,208 @@ a {
   line-height: 1;
   display: inline-block;
 }
+
+.title {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+// footer
+.footer {
+  padding: 50px 0 10px;
+  background-color: #f7f7f7;
+}
+
+.footr__inner {
+}
+
+.footer__contents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.footer__content {
+}
+
+.footer__text {
+  margin-top: 30px;
+}
+.footer__text p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer__info {
+  margin-top: 20px;
+}
+
+.footer__links {
+  margin-top: 30px;
+}
+
+.footer__link a {
+  font-size: 14px;
+}
+
+.footer__twitter {
+  margin-top: 30px;
+}
+
+.footer__copyright {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 60px;
+}
+
+.l-footer {
+  margin-top: 140px;
+}
+
+// アーカイブリンク
+.link {
+}
+
+.link__item {
+  padding: 15px 0;
+  border-bottom: 1px solid #777;
+  padding-left: 15px;
+}
+
+.link__item:first-child {
+  border-top: 1px solid #777;
+}
+
+// card01
+.card01__img {
+  aspect-ratio: 373/210;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+
+.card01__text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card01__text--small {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.card01__link-box {
+  text-align: center;
+}
+
+.card-link {
+  font-size: 14px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+// pickup-cards
+.pickup-cards__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.layout-pickup {
+  margin-top: 44px;
+}
+
+// card02
+.card02__title {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.card02__meta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.card02__img {
+  aspect-ratio: 759/427;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+
+.card02__text {
+  padding: 0 45px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.card02__link-box {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.blog-cards__items {
+  display: grid;
+  gap: 80px;
+}
+
+// .col-2
+
+.l-col-2 {
+  margin-top: 70px;
+}
+
+.col-2__cotents {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  gap: 5%;
+}
+// sidebar
+.sidebar__items {
+  display: grid;
+  gap: 60px;
+}
+
+// pfofile
+.pfofile__img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #777;
+  margin: 0 auto;
+}
+
+.profile__title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.frofile__text {
+  margin-top: 30px;
+}
+
+// ranking
+.ranking__cards {
+  display: grid;
+  gap: 30px;
+  margin-top: 30px;
+}
+.ranking__title {
+  margin-top: 30px;
+  text-align: center;
+}
+
+// archive
+.archive__title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.archive__item {
+  margin-top: 30px;
+}
