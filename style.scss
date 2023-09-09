@@ -362,3 +362,10 @@ a {
 .archive__item {
   margin-top: 30px;
 }
+.card01__img img,
+.card02__img img,
+.pfofile__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
